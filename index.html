@@ -30,6 +30,7 @@
         /* Float the image to the right */
         .right-image {
             float: right; /* Floats the image to the right */
+            width: 300px; /* Fixed width for the image on larger screens */
             margin-left: 20px; /* Adds some space between the image and the text */
             margin-right: 300px; /* Adds space between the image and the right edge */
         }
@@ -100,8 +101,8 @@
             margin: 1px 0;
         }
         .right-image {
-            /*float: none;
-            display: block;*/
+            float: right;
+            width: 60px; /* Fixed width for the image on mobile screens */
             margin-left: auto; /* Automatically push the image to the right */
             width: 20%; /* Make image smaller */
         }
@@ -110,7 +111,7 @@
         }
         .blue-box {
             height: 40px; /* Height of the blue box */
-            width: 20%; /* Full width for mobile */
+            width: 40%; /* Full width for mobile */
             font-size: 24px; /* Smaller font size for buttons */
             margin-left: 0; /* Center the box */
         }
@@ -143,7 +144,7 @@
     <div class="blue-divider"></div>
     
     <!-- Adding an image -->
-    <img src="images/ProfMee.png" alt="Professional Image of Kenneth" width="300" class="right-image"> 
+    <img src="images/ProfMee.png" alt="Professional Image of Kenneth" class="right-image"> 
     <!-- Adjust 'width' as needed -->
 
     <p class="small-text">I'm</p> <!-- Small text -->
